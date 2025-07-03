@@ -1,4 +1,4 @@
-export const baseURL = import.meta.env.VITE_API_BASE_URL || "https://binkitbackendcode.onrender.com/";
+export const baseURL = import.meta.env.VITE_API_BASE_URL || "https://binkitbackend.onrender.com/";
 
 const SummaryApi = {
     register : {
