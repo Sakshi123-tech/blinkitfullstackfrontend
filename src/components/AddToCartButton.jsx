@@ -19,7 +19,12 @@ const AddToCartButton = ({ data }) => {
     const handleADDTocart = async (e) => {
         e.preventDefault()
         e.stopPropagation()
-
+ const accessToken = localStorage.getItem('accesstoken');
+  if (!accessToken) {
+    toast.error("Please First You have to login to add items to your cart");
+    navigate("/login");  // 🔁 Redirect to login page
+    return;
+  }
         try {
             setLoading(true)
 
