@@ -2,7 +2,7 @@ import axios from "axios";
 import SummaryApi , { baseURL } from "../common/SummaryApi";
 
 const Axios = axios.create({
-    baseURL : "https://binkitfullstackbackend-2.onrender.com/",
+    baseURL : "https://binkitfullstackbackend.onrender.com/",
     withCredentials : true
 })
 
