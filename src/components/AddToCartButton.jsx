@@ -17,7 +17,7 @@ const AddToCartButton = ({ data }) => {
     const [qty, setQty] = useState(0)
     const [cartItemDetails, setCartItemsDetails] = useState()
 
-    // const navigate = useNavigate(); // Optional: only if using useNavigate()
+    const navigate = useNavigate(); // Optional: only if using useNavigate()
 
     const handleADDTocart = async (e) => {
         e.preventDefault()
@@ -26,7 +26,7 @@ const AddToCartButton = ({ data }) => {
         const accesstoken = localStorage.getItem('accesstoken');
         if (!accesstoken) {
             toast.error("Please first login to add items to your cart");
-            window.location.href = "/login"; // OR use navigate("/login") if using react-router
+           navigate("/login") 
             return;
         }
 
