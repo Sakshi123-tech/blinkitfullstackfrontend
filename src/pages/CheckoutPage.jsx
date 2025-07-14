@@ -104,7 +104,7 @@ const CheckoutPage = () => {
           <div className='bg-white p-2 grid gap-4'>
             {
               addressList.map((address, index) => {
-                console.log("🔥 Rendering address:", address);
+               // console.log("🔥 Rendering address:", address);
                 return (
                   <label htmlFor={"address" + index} className="">
 

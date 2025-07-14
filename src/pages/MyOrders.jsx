@@ -5,7 +5,7 @@ import NoData from '../components/NoData'
 const MyOrders = () => {
   const orders = useSelector(state => state.orders.order)
 
-  console.log("order Items",orders)
+ // console.log("order Items",orders)
   return (
     <div>
       <div className='bg-white shadow-md p-3 font-semibold'>
@@ -42,5 +42,4 @@ const MyOrders = () => {
     </div>
   )
 }
-
 export default MyOrders
