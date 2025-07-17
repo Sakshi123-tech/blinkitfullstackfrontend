@@ -13,10 +13,10 @@ const Footer = () => {
             Made with <span className='text-red-500 text-base'>♥</span> by Anwesha Bhatt
           </span>
           
-          <a href='https://github.com/AnweshaBhatt475' target='_blank' rel='noreferrer'>
+          <a href='https://github.com/Sakshi123-tech' target='_blank' rel='noreferrer'>
             <FaGithub className='hover:text-black transition duration-200' />
           </a>
-          <a href='https://www.linkedin.com/in/anwesha-bhatt-4228a3245' target='_blank' rel='noreferrer'>
+          <a href='https://www.linkedin.com/in/sakshi-agnihotri-64613a263' target='_blank' rel='noreferrer'>
             <FaLinkedin className='hover:text-blue-600 transition duration-200' />
           </a>
           {/* <a href='https://instagram.com/your-instagram' target='_blank' rel='noreferrer'>
