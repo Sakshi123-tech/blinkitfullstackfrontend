@@ -10,7 +10,7 @@ const Footer = () => {
 
         <div className='flex items-center gap-2 text-gray-600'>
           <span className='flex items-center gap-1'>
-            Made with <span className='text-red-500 text-base'>♥</span> by Sakshi Agnihotri
+            Made with <span className='text-red-500 text-base'>♥</span> by Anwesha Bhatt
           </span>
           
           <a href='https://github.com/Sakshi123-tech' target='_blank' rel='noreferrer'>
